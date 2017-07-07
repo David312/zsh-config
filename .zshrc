@@ -105,18 +105,5 @@ fi
 
 unset EMACS
 unset EMACSCL
-   
-PATH=$PATH:~/scripts
-PATH="/usr/gnat/bin:$PATH";
-PATH="/opt/mkprom2:$PATH";
-PATH="/usr/local/gnatforleon3-50mhz-nofpu/bin/:$PATH";
-
-# These don't work because some programs are not installed.
-# export PATH=/usr/local_x86/gnatforleon-3.0.0-nofpu/gnatforleon3-50mhz-nofpu/bin/:$PATH
-# export PATH=/opt/mkprom2:$PATH
-# export PATH=/opt/sparc-elf-4.4.2/bin/:$PATH
-# # export PATH=/usr/local_x86/gnat-2012-gpl/bin/:$PATH
-# export PATH=/usr/local_x86/gnatforleon3-FC/bin:$PATH
-# export PATH=/usr/local/gnat-gpl-2016/bin:$PATH
 
 
