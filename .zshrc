@@ -86,6 +86,10 @@ source $ZSH/oh-my-zsh.sh
 
 
 # My configuration
+
+# Add final '/' for . and .. dirs
+zstyle ':completion:*' special-dirs true
+
 EMACS=$(which emacs)
 EMACSCL=$(which emacsclient)
 
